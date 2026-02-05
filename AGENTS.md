@@ -115,7 +115,7 @@ fun exampleFunction(param1: String): Boolean {
 ## Testing-Anweisungen
 
 ### Unit Tests (src/test)
-- Verwende JUnit 5 für Test-Framework
+- Verwende JUnit 4 für Test-Framework
 - Verwende MockK oder Mockito für Mocking
 - Teste Geschäftslogik, ViewModels und Use Cases
 - Ziel: Mindestens 80% Code Coverage
