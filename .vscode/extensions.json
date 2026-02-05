@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle",
+    "fwcd.kotlin",
+    "github.copilot",
+    "eamodio.gitleens",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "usernamehw.errorlens",
+    "esbenp.prettier-vscode"
+  ]
+}
