@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "android-studio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-android-studio"
+      ],
+      "env": {
+        "ANDROID_HOME": "${env:ANDROID_HOME}",
+        "JAVA_HOME": "${env:JAVA_HOME}"
+      }
+    },
+    "gradle": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gradle"
+      ],
+      "env": {
+        "GRADLE_USER_HOME": "${workspaceFolder}/.gradle"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
+    },
+    "git": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-git",
+        "--repository",
+        "${workspaceFolder}"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    }
+  }
+}
